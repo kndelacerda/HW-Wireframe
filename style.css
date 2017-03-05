@@ -1,0 +1,98 @@
+* {
+	box-sizing: border-box;
+	text-align: center;
+	background-color: gray
+}
+
+body {
+	font-family: arial;
+	font-size: 18px;
+}
+
+header {
+	background-color: #ccc;
+	color:gray;
+	padding: 30px;
+	margin-bottom: 10px;
+}
+
+#nav {
+	background-color: #ccc;
+	color: gray;
+	padding: 30px;
+	margin-bottom: 20px;
+}
+
+#full {
+	background-color: gray;
+	overflow: auto;
+	width: 100%;
+}
+
+#section {
+	background-color: #ccc;
+	color: gray;
+	padding: 20px;
+	height: 300px;
+	width: 60%;
+	float: left;
+	}
+
+#article {
+	background-color: gray;
+	color: white;
+	height: 220px;
+	padding: 20px;
+	width: 55%;
+	border: 1px solid #ccc;
+	margin-left: 25px;
+	margin-top: -240px;
+	float: left;
+}
+
+#h1 {
+	background-color: #ccc;
+	font-size: 25px;
+	color: gray;
+	padding: 15px;
+	width: 50%;
+	border: 1px solid #ccc;
+	margin-left: 50px;
+	margin-top: -180px;
+	float: left;
+}
+
+#paragraph {
+	background-color: #ccc;
+	color: gray;
+	padding: 20px;
+	width: 50%;
+	border: 1px solid #ccc;
+	margin-left: 50px;
+	margin-top: -100px;
+	float: left;
+}
+
+.clear {
+
+}
+
+#aside {
+	clear: both;
+	float: right;
+	background-color: #ccc;
+	color: gray;
+	height: 300px;
+	width: 38%;
+	padding: 20px;
+	margin-top: -300px;
+}
+
+
+footer {
+	clear: both;
+	margin-top: 20px;
+	background-color: #ccc;
+	padding: 30px;
+	color: gray;
+}
